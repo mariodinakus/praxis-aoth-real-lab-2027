@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: praxis-aoth-real-lab-2027
+    runtime: static
+    buildCommand: echo 'Static site ready'
+    staticPublishPath: ./public
+    autoDeployTrigger: commit
